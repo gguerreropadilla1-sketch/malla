@@ -1,0 +1,1121 @@
+/* ============================================================
+   MALLA DE TURNOS - ANDES BPO
+   ESTILOS
+============================================================ */
+
+
+/* ============================================================
+   CONFIGURACIÓN GENERAL
+============================================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background: #EEF2F5;
+
+    color: #263238;
+
+}
+
+
+/* ============================================================
+   ENCABEZADO
+============================================================ */
+
+.encabezado {
+
+    min-height: 110px;
+
+    padding: 18px 35px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 25px;
+
+    background:
+        linear-gradient(
+         90deg,
+    #004B87 0%,
+    #0067A8 50%,
+    #0099D8 100%
+);
+
+}
+
+
+/* Logos temporales */
+
+.logo {
+
+    min-width: 130px;
+
+    text-align: center;
+
+    font-size: 20px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+}
+
+
+/* Título */
+
+.titulo {
+
+    text-align: center;
+
+    flex: 1;
+
+}
+
+
+.titulo h1 {
+
+    margin: 0;
+
+    font-size: 28px;
+
+    font-weight: 800;
+
+}
+
+
+.titulo p {
+
+    margin: 5px 0;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+}
+
+
+.titulo span {
+
+    font-size: 13px;
+
+}
+
+
+/* ============================================================
+   PANTALLAS
+============================================================ */
+
+.pantalla {
+
+    width: 100%;
+
+    min-height: calc(100vh - 110px);
+
+    padding: 40px 25px;
+
+}
+
+
+.oculto {
+
+    display: none !important;
+
+}
+
+
+/* ============================================================
+   PANTALLA INICIAL
+============================================================ */
+
+.inicio {
+
+    width: min(500px, 100%);
+
+    margin: 70px auto;
+
+    padding: 45px 35px;
+
+    background: white;
+
+    border-radius: 18px;
+
+    text-align: center;
+
+    box-shadow:
+        0 10px 30px rgba(
+            0,
+            0,
+            0,
+            0.10
+        );
+
+}
+
+
+.inicio h2 {
+
+    margin-top: 0;
+
+    font-size: 30px;
+
+}
+
+
+.inicio p {
+
+    color: #607D8B;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* ============================================================
+   BOTONES
+============================================================ */
+
+button {
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 13px 20px;
+
+    margin: 7px;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    background: #005B96;
+
+    color: white;
+
+    transition:
+        transform 0.15s ease,
+        opacity 0.15s ease;
+
+}
+
+
+button:hover {
+
+    opacity: 0.90;
+
+    transform: translateY(
+        -1px
+    );
+
+}
+
+
+/* ============================================================
+   CONTENIDO
+============================================================ */
+
+.contenido {
+
+    width: min(
+        1400px,
+        100%
+    );
+
+    margin: auto;
+
+}
+
+
+.contenido > h2 {
+
+    margin-top: 15px;
+
+    margin-bottom: 8px;
+
+}
+
+
+.contenido > p {
+
+    color: #607D8B;
+
+}
+
+
+/* ============================================================
+   BÚSQUEDA
+============================================================ */
+
+#busquedaAgente {
+
+    width: min(
+        600px,
+        100%
+    );
+
+    display: block;
+
+    margin: 25px auto;
+
+}
+
+
+input,
+select {
+
+    padding: 13px 15px;
+
+    border: 1px solid #CFD8DC;
+
+    border-radius: 9px;
+
+    background: white;
+
+    font-size: 15px;
+
+    outline: none;
+
+}
+
+
+input:focus,
+select:focus {
+
+    border-color: #0094D9;
+
+    box-shadow:
+        0 0 0 3px
+        rgba(
+            0,
+            148,
+            217,
+            0.12
+        );
+
+}
+
+
+/* ============================================================
+   RESULTADO DEL AGENTE
+============================================================ */
+
+.malla-agente {
+
+    width: 100%;
+
+    margin: 30px auto;
+
+}
+
+
+.cabecera-agente {
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    margin-bottom: 20px;
+
+    box-shadow:
+        0 5px 20px
+        rgba(
+            0,
+            0,
+            0,
+            0.08
+        );
+
+}
+
+
+.cabecera-agente h2 {
+
+    margin: 0 0 8px;
+
+}
+
+
+.cabecera-agente p {
+
+    margin: 0;
+
+    color: #607D8B;
+
+}
+
+
+/* ============================================================
+   DÍAS
+============================================================ */
+
+.dia {
+
+    background: white;
+
+    margin-bottom: 18px;
+
+    padding: 20px;
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 4px 15px
+        rgba(
+            0,
+            0,
+            0,
+            0.06
+        );
+
+}
+
+
+.dia h3 {
+
+    margin-top: 0;
+
+    color: #005B96;
+
+    border-bottom:
+        2px solid #EEF2F5;
+
+    padding-bottom: 10px;
+
+}
+
+
+.datos-dia {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(
+                130px,
+                1fr
+            )
+        );
+
+    gap: 12px;
+
+}
+
+
+.datos-dia div {
+
+    background: #F7F9FA;
+
+    padding: 14px;
+
+    border-radius: 10px;
+
+}
+
+
+.datos-dia span {
+
+    display: block;
+
+    font-size: 12px;
+
+    color: #78909C;
+
+    margin-bottom: 5px;
+
+}
+
+
+.datos-dia strong {
+
+    font-size: 15px;
+
+}
+
+
+/* ============================================================
+   MENSAJE
+============================================================ */
+
+.mensaje {
+
+    max-width: 600px;
+
+    margin: 30px auto;
+
+    padding: 25px;
+
+    background: white;
+
+    border-radius: 14px;
+
+    text-align: center;
+
+    box-shadow:
+        0 5px 20px
+        rgba(
+            0,
+            0,
+            0,
+            0.08
+        );
+
+}
+
+
+.mensaje h3 {
+
+    margin-top: 0;
+
+}
+
+
+/* ============================================================
+   RESUMEN SUPERVISOR
+============================================================ */
+
+.resumen {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(
+                180px,
+                1fr
+            )
+        );
+
+    gap: 15px;
+
+    margin: 25px 0;
+
+}
+
+
+.resumen div {
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 13px;
+
+    box-shadow:
+        0 4px 15px
+        rgba(
+            0,
+            0,
+            0,
+            0.06
+        );
+
+}
+
+
+.resumen span {
+
+    display: block;
+
+    color: #78909C;
+
+    font-size: 13px;
+
+    margin-bottom: 7px;
+
+}
+
+
+.resumen strong {
+
+    font-size: 20px;
+
+}
+
+
+/* ============================================================
+   FILTROS SUPERVISOR
+============================================================ */
+
+.filtros {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin: 20px 0;
+
+}
+
+
+.filtros input {
+
+    flex: 1;
+
+    min-width: 220px;
+
+}
+
+
+.filtros select {
+
+    min-width: 200px;
+
+}
+
+
+/* ============================================================
+   TABLA
+============================================================ */
+
+.tabla-contenedor {
+
+    width: 100%;
+
+    overflow-x: auto;
+
+    background: white;
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 5px 20px
+        rgba(
+            0,
+            0,
+            0,
+            0.07
+        );
+
+}
+
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    min-width: 1200px;
+
+}
+
+
+thead {
+
+    background: #005B96;
+
+    color: white;
+
+}
+
+
+th {
+
+    padding: 14px 12px;
+
+    text-align: left;
+
+    font-size: 13px;
+
+    white-space: nowrap;
+
+}
+
+
+td {
+
+    padding: 12px;
+
+    border-bottom:
+        1px solid #ECEFF1;
+
+    font-size: 13px;
+
+    white-space: nowrap;
+
+}
+
+
+tbody tr:hover {
+
+    background: #F5F9FC;
+
+}
+
+
+/* ============================================================
+   RESPONSIVE
+============================================================ */
+
+@media (
+    max-width: 700px
+) {
+
+    .encabezado {
+
+        flex-direction: column;
+
+        padding: 20px;
+
+        text-align: center;
+
+    }
+
+
+    .logo {
+
+        min-width: auto;
+
+    }
+
+
+    .titulo h1 {
+
+        font-size: 22px;
+
+    }
+
+
+    .pantalla {
+
+        padding: 20px 12px;
+
+    }
+
+
+    .inicio {
+
+        margin: 30px auto;
+
+        padding: 30px 20px;
+
+    }
+
+
+    .filtros {
+
+        flex-direction: column;
+
+    }
+
+
+    .filtros input,
+    .filtros select {
+
+        width: 100%;
+
+    }
+
+}
+/* ============================================================
+   MALLA INDIVIDUAL HORIZONTAL
+============================================================ */
+
+.tabla-agente-contenedor {
+
+    width: 100%;
+
+    overflow-x: auto;
+
+    background: white;
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 5px 20px
+        rgba(0, 0, 0, 0.07);
+
+}
+
+
+.tabla-agente {
+
+    width: 100%;
+
+    min-width: 850px;
+
+    border-collapse: collapse;
+
+}
+
+
+.tabla-agente thead {
+
+    background: #005B96;
+
+    color: white;
+
+}
+
+
+.tabla-agente th,
+.tabla-agente td {
+
+    padding: 13px 15px;
+
+    border-bottom:
+        1px solid #E3E8EC;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+}
+
+
+.tabla-agente thead th:first-child {
+
+    text-align: left;
+
+}
+
+
+.tabla-agente tbody th {
+
+    background: #F5F8FA;
+
+    color: #37474F;
+
+    text-align: left;
+
+    font-weight: 700;
+
+}
+
+
+.tabla-agente tbody td {
+
+    font-weight: 600;
+
+    color: #263238;
+
+}
+
+
+.tabla-agente tbody tr:hover {
+
+    background: #F8FBFD;
+
+}
+
+
+/* Primera columna más ancha */
+
+.tabla-agente th:first-child {
+
+    min-width: 170px;
+
+}
+
+
+/* Encabezados de días */
+
+.tabla-agente thead th:not(:first-child) {
+
+    min-width: 125px;
+
+}
+
+
+/* Sábado */
+
+.tabla-agente thead th:last-child {
+
+    background: #006AA6;
+
+}
+/* ============================================================
+   TABLA GENERAL DEL SUPERVISOR
+============================================================ */
+
+.tabla-supervisor-contenedor {
+
+    width: 100%;
+
+    overflow-x: auto;
+
+    background: white;
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 5px 20px
+        rgba(0, 0, 0, 0.07);
+
+}
+
+
+.tabla-supervisor {
+
+    width: 100%;
+
+    min-width: 1500px;
+
+    border-collapse: collapse;
+
+}
+
+
+.tabla-supervisor thead {
+
+    background: #005B96;
+
+    color: white;
+
+}
+
+
+.tabla-supervisor th {
+
+    padding: 14px 12px;
+
+    text-align: center;
+
+    font-size: 13px;
+
+    white-space: nowrap;
+
+}
+
+
+.tabla-supervisor td {
+
+    padding: 12px;
+
+    text-align: center;
+
+    border-bottom:
+        1px solid #E6EBEF;
+
+    white-space: nowrap;
+
+    font-size: 13px;
+
+}
+
+
+.tabla-supervisor tbody tr:hover {
+
+    background: #F7FAFC;
+
+}
+
+
+/* Nombre del agente */
+
+.tabla-supervisor .nombre-agente {
+
+    text-align: left;
+
+    font-weight: 700;
+
+    min-width: 240px;
+
+}
+
+
+/* Horarios de ingreso y salida */
+
+.tabla-supervisor td strong {
+
+    color: #005B96;
+
+}
+
+
+/* Separador */
+
+.separador-horario {
+
+    color: #90A4AE;
+
+    margin: 0 3px;
+
+}
+
+
+/* Información después del sábado */
+
+.detalle-horario {
+
+    min-width: 145px;
+
+    line-height: 1.7;
+
+}
+
+
+/* Cuando el horario cambia según el día */
+
+.horario-por-dia {
+
+    font-size: 12px;
+
+}
+
+
+.horario-por-dia span {
+
+    display: inline-block;
+
+    min-width: 18px;
+
+    margin-right: 4px;
+
+    font-weight: 800;
+
+    color: #005B96;
+
+}
+
+
+/* Canal */
+
+.canal-supervisor {
+
+    display: inline-block;
+
+    padding: 6px 10px;
+
+    border-radius: 20px;
+
+    background: #E8F5E9;
+
+    color: #087F23;
+
+    font-weight: 700;
+
+    font-size: 12px;
+
+}
+/* =====================================================
+   TABLA GENERAL - SUPERVISOR
+===================================================== */
+
+#tablaMalla {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: visible;
+    margin-top: 20px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
+
+
+/* CONTENEDOR INTERNO DE LA TABLA */
+
+#tablaMalla table {
+    width: max-content;
+    min-width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+
+/* ENCABEZADOS */
+
+#tablaMalla th {
+    background: #005B96;
+    color: white;
+    padding: 12px 14px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+
+/* CELDAS */
+
+#tablaMalla td {
+    padding: 11px 14px;
+    border-bottom: 1px solid #E5E9ED;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+/* NOMBRE DEL AGENTE */
+
+#tablaMalla th:first-child,
+#tablaMalla td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 6;
+    text-align: left;
+    min-width: 230px;
+}
+
+
+/* FONDO DEL NOMBRE PARA QUE NO SE TRANSPARENTE */
+
+#tablaMalla td:first-child {
+    background: white;
+    font-weight: 600;
+}
+
+
+/* PRIMER ENCABEZADO */
+
+#tablaMalla th:first-child {
+    background: #004475;
+}
+
+
+/* FILAS */
+
+#tablaMalla tbody tr:hover td {
+    background: #F1F7FB;
+}
+
+
+/* HORARIOS */
+
+#tablaMalla td {
+    vertical-align: middle;
+}
+
+
+/* BARRA DE DESPLAZAMIENTO */
+
+#tablaMalla::-webkit-scrollbar {
+    height: 10px;
+}
+
+#tablaMalla::-webkit-scrollbar-track {
+    background: #E8EEF2;
+    border-radius: 10px;
+}
+
+#tablaMalla::-webkit-scrollbar-thumb {
+    background: #005B96;
+    border-radius: 10px;
+}
+
+#tablaMalla::-webkit-scrollbar-thumb:hover {
+    background: #004475;
+}

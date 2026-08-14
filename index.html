@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Malla de Turnos | Andes BPO</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ============================= -->
+    <!-- ENCABEZADO -->
+    <!-- ============================= -->
+
+    <header class="encabezado">
+
+        <div class="logo">
+            ANDES BPO
+        </div>
+
+        <div class="titulo">
+
+            <h1>MALLA DE TURNOS</h1>
+
+            <p id="periodo">
+                Malla semanal
+            </p>
+
+            <span>
+                Operación Atención al Ciudadano
+            </span>
+
+        </div>
+
+        <div class="logo">
+            MIGRACIÓN
+        </div>
+
+    </header>
+
+
+    <!-- ============================= -->
+    <!-- PANTALLA PRINCIPAL -->
+    <!-- ============================= -->
+
+    <main id="pantallaInicio" class="pantalla">
+
+        <section class="inicio">
+
+            <h2>Malla de Turnos</h2>
+
+            <p>
+                Seleccione el tipo de consulta
+            </p>
+
+            <button id="btnAgente">
+                👤 Consultar mi malla
+            </button>
+
+            <button id="btnSupervisor">
+                🔐 Acceso supervisor
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- ============================= -->
+    <!-- PANTALLA AGENTE -->
+    <!-- ============================= -->
+
+    <main id="pantallaAgente"
+          class="pantalla oculto">
+
+        <section class="contenido">
+
+            <button id="btnInicioAgente">
+                🏠 Inicio
+            </button>
+
+            <h2>Consultar mi malla</h2>
+
+            <p>
+                Escriba su nombre o apellido
+            </p>
+
+            <input
+                type="text"
+                id="busquedaAgente"
+                placeholder="Ejemplo: Daniela Barrios"
+            >
+
+            <div id="resultadoAgente"></div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ============================= -->
+    <!-- PANTALLA SUPERVISOR -->
+    <!-- ============================= -->
+
+   <main id="pantallaSupervisor"
+      class="pantalla oculto">
+
+    <section class="contenido">
+
+        <button id="btnInicioSupervisor">
+            🏠 Inicio
+        </button>
+
+
+        <!-- ============================= -->
+        <!-- CARGAR MALLA -->
+        <!-- ============================= -->
+
+        <div class="carga-excel">
+
+            <h3>📁 Cargar malla</h3>
+
+            <p>
+                Seleccione el archivo Excel correspondiente a la semana.
+            </p>
+
+            <input
+                type="file"
+                id="archivoExcel"
+                accept=".xlsx,.xls"
+            >
+
+            <div id="estadoCargaExcel">
+                No se ha cargado una malla.
+            </div>
+
+        </div>
+
+
+        <h2>Malla general de la operación</h2>
+
+
+        <!-- ============================= -->
+        <!-- RESUMEN -->
+        <!-- ============================= -->
+
+        <div id="resumenOperacion"></div>
+
+
+        <!-- ============================= -->
+        <!-- FILTROS -->
+        <!-- ============================= -->
+
+        <div class="filtros">
+
+            <input
+                type="text"
+                id="buscarSupervisor"
+                placeholder="Buscar agente..."
+            >
+
+            <select id="filtroCanal">
+
+                <option value="">
+                    Todos los canales
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- ============================= -->
+        <!-- TABLA -->
+        <!-- ============================= -->
+
+        <div id="tablaMalla"></div>
+
+    </section>
+
+</main>
+    <!-- ============================= -->
+    <!-- ARCHIVOS JAVASCRIPT -->
+    <!-- ============================= -->
+
+<script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+
+<script src="datos.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
