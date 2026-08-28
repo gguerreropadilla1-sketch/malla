@@ -108,7 +108,7 @@ const malla = {
             }
         },
         {
-            "nombre": "Roxanna Castro Pardo",
+            "nombre": "Eugenia Roxana Castro",
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
@@ -219,7 +219,7 @@ const malla = {
             "canal": "Inbound",
             "lunes": {
                 "ingreso": "07:00",
-                "salida": "16:00",
+                "salida": "16:30",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
@@ -227,7 +227,7 @@ const malla = {
             },
             "martes": {
                 "ingreso": "07:00",
-                "salida": "16:00",
+                "salida": "16:30",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
@@ -235,7 +235,7 @@ const malla = {
             },
             "miercoles": {
                 "ingreso": "07:00",
-                "salida": "15:00",
+                "salida": "16:30",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
@@ -243,7 +243,7 @@ const malla = {
             },
             "jueves": {
                 "ingreso": "07:00",
-                "salida": "15:00",
+                "salida": "16:30",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
@@ -251,7 +251,7 @@ const malla = {
             },
             "viernes": {
                 "ingreso": "07:00",
-                "salida": "15:00",
+                "salida": "16:30",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
@@ -324,7 +324,7 @@ const malla = {
             "identificacion": "",
             "canal": "Agente bilingüe",
             "lunes": {
-                "ingreso": "07:30",
+                "ingreso": "07:00",
                 "salida": "17:00",
                 "break1": "09:20",
                 "break2": "14:40",
@@ -332,7 +332,7 @@ const malla = {
                 "pausaActiva": "15:40"
             },
             "martes": {
-                "ingreso": "07:30",
+                "ingreso": "07:00",
                 "salida": "17:00",
                 "break1": "09:20",
                 "break2": "14:40",
@@ -340,7 +340,7 @@ const malla = {
                 "pausaActiva": "15:40"
             },
             "miercoles": {
-                "ingreso": "07:30",
+                "ingreso": "07:00",
                 "salida": "17:00",
                 "break1": "09:20",
                 "break2": "14:40",
@@ -348,7 +348,7 @@ const malla = {
                 "pausaActiva": "15:40"
             },
             "jueves": {
-                "ingreso": "07:30",
+                "ingreso": "07:00",
                 "salida": "17:00",
                 "break1": "09:20",
                 "break2": "14:40",
@@ -430,7 +430,7 @@ const malla = {
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
-                "ingreso": "07:30",
+                "ingreso": "07:00",
                 "salida": "17:00",
                 "break1": "09:40",
                 "break2": "15:10",
