@@ -1,8 +1,167 @@
 const malla = {
-    "periodo": "24 al 29 de agosto de 2026",
+    "periodo": "10 al 15 de agosto de 2026",
     "agentes": [
         {
-            "nombre": "Wendy Julieth Caliz Ardilla",
+            "nombre": "Maria Elisa Osorio",
+            "identificacion": "",
+            "canal": "Inbound",
+            "lunes": {
+                "ingreso": "07:00",
+                "salida": "16:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "martes": {
+                "ingreso": "07:00",
+                "salida": "16:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "miercoles": {
+                "ingreso": "07:00",
+                "salida": "15:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "jueves": {
+                "ingreso": "07:00",
+                "salida": "15:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "viernes": {
+                "ingreso": "07:00",
+                "salida": "15:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "sabado": {
+                "ingreso": "08:00",
+                "salida": "13:00",
+                "break1": "",
+                "break2": "",
+                "almuerzo": "",
+                "pausaActiva": ""
+            }
+        },
+        {
+            "nombre": "Anderson Ricardo Gelves Castaño",
+            "identificacion": "",
+            "canal": "Inbound",
+            "lunes": {
+                "ingreso": "07:00",
+                "salida": "16:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "martes": {
+                "ingreso": "07:00",
+                "salida": "16:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "miercoles": {
+                "ingreso": "07:00",
+                "salida": "15:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "jueves": {
+                "ingreso": "07:00",
+                "salida": "15:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "viernes": {
+                "ingreso": "07:00",
+                "salida": "15:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "sabado": {
+                "ingreso": "08:00",
+                "salida": "13:00",
+                "break1": "",
+                "break2": "",
+                "almuerzo": "",
+                "pausaActiva": ""
+            }
+        },
+        {
+            "nombre": "Roxanna Castro Pardo",
+            "identificacion": "",
+            "canal": "Inbound",
+            "lunes": {
+                "ingreso": "07:00",
+                "salida": "16:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "martes": {
+                "ingreso": "07:00",
+                "salida": "16:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "miercoles": {
+                "ingreso": "07:00",
+                "salida": "15:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "jueves": {
+                "ingreso": "07:00",
+                "salida": "15:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "viernes": {
+                "ingreso": "07:00",
+                "salida": "15:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "sabado": {
+                "ingreso": "08:00",
+                "salida": "13:00",
+                "break1": "",
+                "break2": "",
+                "almuerzo": "",
+                "pausaActiva": ""
+            }
+        },
+        {
+            "nombre": "Karen Nathalia Peña Osorio",
             "identificacion": "",
             "canal": "Canal virtual",
             "lunes": {
@@ -48,6 +207,112 @@ const malla = {
             "sabado": {
                 "ingreso": "08:00",
                 "salida": "13:00",
+                "break1": "",
+                "break2": "",
+                "almuerzo": "",
+                "pausaActiva": ""
+            }
+        },
+        {
+            "nombre": "Mayerly Medina",
+            "identificacion": "",
+            "canal": "Inbound",
+            "lunes": {
+                "ingreso": "07:00",
+                "salida": "16:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "martes": {
+                "ingreso": "07:00",
+                "salida": "16:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "miercoles": {
+                "ingreso": "07:00",
+                "salida": "15:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "jueves": {
+                "ingreso": "07:00",
+                "salida": "15:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "viernes": {
+                "ingreso": "07:00",
+                "salida": "15:00",
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
+            },
+            "sabado": {
+                "ingreso": "08:00",
+                "salida": "13:00",
+                "break1": "",
+                "break2": "",
+                "almuerzo": "",
+                "pausaActiva": ""
+            }
+        },
+        {
+            "nombre": "Wendy Julieth Caliz Ardilla",
+            "identificacion": "",
+            "canal": "Canal virtual",
+            "lunes": {
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
+            },
+            "martes": {
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
+            },
+            "miercoles": {
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
+            },
+            "jueves": {
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
+            },
+            "viernes": {
+                "ingreso": "08:00",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
+            },
+            "sabado": {
+                "ingreso": "No labora",
+                "salida": "",
                 "break1": "",
                 "break2": "",
                 "almuerzo": "",
@@ -59,48 +324,48 @@ const malla = {
             "identificacion": "",
             "canal": "Agente bilingüe",
             "lunes": {
-                "ingreso": "07:00",
-                "salida": "16:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "martes": {
-                "ingreso": "07:00",
-                "salida": "16:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "miercoles": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "jueves": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "viernes": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "08:00",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "sabado": {
-                "ingreso": "08:00",
-                "salida": "13:00",
+                "ingreso": "No labora",
+                "salida": "",
                 "break1": "",
                 "break2": "",
                 "almuerzo": "",
@@ -112,48 +377,48 @@ const malla = {
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
-                "ingreso": "07:00",
-                "salida": "16:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "martes": {
-                "ingreso": "07:00",
-                "salida": "16:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "miercoles": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "jueves": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "viernes": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "08:00",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "sabado": {
-                "ingreso": "08:00",
-                "salida": "13:00",
+                "ingreso": "No labora",
+                "salida": "",
                 "break1": "",
                 "break2": "",
                 "almuerzo": "",
@@ -165,48 +430,48 @@ const malla = {
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
-                "ingreso": "07:00",
-                "salida": "16:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "martes": {
-                "ingreso": "07:00",
-                "salida": "16:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "miercoles": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "jueves": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "viernes": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "08:00",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "sabado": {
-                "ingreso": "08:00",
-                "salida": "13:00",
+                "ingreso": "No labora",
+                "salida": "",
                 "break1": "",
                 "break2": "",
                 "almuerzo": "",
@@ -218,48 +483,48 @@ const malla = {
             "identificacion": "",
             "canal": "Canal virtual",
             "lunes": {
-                "ingreso": "07:00",
-                "salida": "16:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "martes": {
-                "ingreso": "07:00",
-                "salida": "16:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "miercoles": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "jueves": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "08:00",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "viernes": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "sabado": {
-                "ingreso": "08:00",
-                "salida": "13:00",
+                "ingreso": "No labora",
+                "salida": "",
                 "break1": "",
                 "break2": "",
                 "almuerzo": "",
@@ -271,48 +536,48 @@ const malla = {
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
-                "ingreso": "07:00",
-                "salida": "16:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "martes": {
-                "ingreso": "07:00",
-                "salida": "16:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "miercoles": {
-                "ingreso": "07:00",
-                "salida": "15:30",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "jueves": {
-                "ingreso": "07:00",
-                "salida": "15:30",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "08:00",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "viernes": {
-                "ingreso": "07:00",
-                "salida": "15:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "sabado": {
-                "ingreso": "08:00",
-                "salida": "12:00",
+                "ingreso": "No labora",
+                "salida": "",
                 "break1": "",
                 "break2": "",
                 "almuerzo": "",
@@ -326,42 +591,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "10:00",
-                "break2": "15:00",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:35"
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "10:00",
-                "break2": "15:00",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:35"
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "10:00",
-                "break2": "15:00",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:35"
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "jueves": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "10:00",
-                "break2": "15:00",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:35"
-            },
-            "viernes": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "10:00",
-                "break2": "15:00",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:35"
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
+            },
+            "viernes": {
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
+                "pausaActiva": "15:40"
             },
             "sabado": {
                 "ingreso": "No labora",
@@ -379,94 +644,41 @@ const malla = {
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
                 "pausaActiva": "15:40"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
                 "pausaActiva": "15:40"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
                 "pausaActiva": "15:40"
             },
             "jueves": {
-                "ingreso": "07:30",
+                "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
                 "pausaActiva": "15:40"
             },
             "viernes": {
-                "ingreso": "08:00",
-                "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
-            },
-            "sabado": {
-                "ingreso": "No labora",
-                "salida": "",
-                "break1": "",
-                "break2": "",
-                "almuerzo": "",
-                "pausaActiva": ""
-            }
-        },
-        {
-            "nombre": "Mayerly Medina",
-            "identificacion": "",
-            "canal": "Inbound",
-            "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
-            },
-            "martes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
-            },
-            "miercoles": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
-            },
-            "jueves": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
-            },
-            "viernes": {
-                "ingreso": "08:00",
-                "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "09:40",
+                "break2": "15:10",
+                "almuerzo": "12:30",
                 "pausaActiva": "15:40"
             },
             "sabado": {
@@ -485,42 +697,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "jueves": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
-            },
-            "viernes": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
+            },
+            "viernes": {
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "sabado": {
                 "ingreso": "No labora",
@@ -538,254 +750,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:10",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
-            },
-            "martes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:10",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
-            },
-            "miercoles": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:10",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
-            },
-            "jueves": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:10",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
-            },
-            "viernes": {
-                "ingreso": "08:00",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:10",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
-            },
-            "sabado": {
-                "ingreso": "No labora",
-                "salida": "",
-                "break1": "",
-                "break2": "",
-                "almuerzo": "",
-                "pausaActiva": ""
-            }
-        },
-        {
-            "nombre": "Kevin Nicolas Trigos Lesmes",
-            "identificacion": "",
-            "canal": "Inbound",
-            "lunes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:10",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:40"
-            },
-            "martes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:10",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:40"
-            },
-            "miercoles": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:10",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:40"
-            },
-            "jueves": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:10",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:40"
-            },
-            "viernes": {
-                "ingreso": "08:00",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:10",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:40"
-            },
-            "sabado": {
-                "ingreso": "No labora",
-                "salida": "",
-                "break1": "",
-                "break2": "",
-                "almuerzo": "",
-                "pausaActiva": ""
-            }
-        },
-        {
-            "nombre": "Anderson Ricardo Gelves Castaño",
-            "identificacion": "",
-            "canal": "Inbound",
-            "lunes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
                 "break1": "10:00",
-                "break2": "15:10",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
                 "break1": "10:00",
-                "break2": "15:10",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
                 "break1": "10:00",
-                "break2": "15:10",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "jueves": {
                 "ingreso": "07:30",
                 "salida": "17:00",
                 "break1": "10:00",
-                "break2": "15:10",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "viernes": {
                 "ingreso": "08:00",
                 "salida": "17:00",
                 "break1": "10:00",
-                "break2": "15:10",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
-            },
-            "sabado": {
-                "ingreso": "No labora",
-                "salida": "",
-                "break1": "",
-                "break2": "",
-                "almuerzo": "",
-                "pausaActiva": ""
-            }
-        },
-        {
-            "nombre": "Maria Elisa Osorio",
-            "identificacion": "",
-            "canal": "Inbound",
-            "lunes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
-            },
-            "martes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
-            },
-            "miercoles": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
-            },
-            "jueves": {
-                "ingreso": "08:00",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
-            },
-            "viernes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
-            },
-            "sabado": {
-                "ingreso": "No labora",
-                "salida": "",
-                "break1": "",
-                "break2": "",
-                "almuerzo": "",
-                "pausaActiva": ""
-            }
-        },
-        {
-            "nombre": "Karen Nathalia Peña Osorio",
-            "identificacion": "",
-            "canal": "Canal virtual",
-            "lunes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
-            },
-            "martes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
-            },
-            "miercoles": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
-            },
-            "jueves": {
-                "ingreso": "08:00",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
-            },
-            "viernes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "sabado": {
                 "ingreso": "No labora",
@@ -803,42 +803,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "jueves": {
-                "ingreso": "08:00",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
-            },
-            "viernes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:30",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:45"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
+            },
+            "viernes": {
+                "ingreso": "08:00",
+                "salida": "17:00",
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "sabado": {
                 "ingreso": "No labora",
@@ -856,42 +856,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "10:00",
+                "break1": "09:20",
                 "break2": "14:40",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "10:00",
+                "break1": "09:20",
                 "break2": "14:40",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "10:00",
+                "break1": "09:20",
                 "break2": "14:40",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "jueves": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "10:00",
+                "break1": "09:20",
                 "break2": "14:40",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "viernes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "10:00",
+                "break1": "09:20",
                 "break2": "14:40",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "sabado": {
                 "ingreso": "No labora",
@@ -909,42 +909,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "jueves": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "viernes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "sabado": {
                 "ingreso": "No labora",
@@ -962,42 +962,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "jueves": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "viernes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
             },
             "sabado": {
                 "ingreso": "No labora",
@@ -1016,41 +1016,41 @@ const malla = {
                 "ingreso": "07:30",
                 "salida": "17:00",
                 "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
                 "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
                 "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "jueves": {
                 "ingreso": "08:00",
                 "salida": "17:00",
                 "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "viernes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
                 "break1": "09:20",
-                "break2": "15:20",
-                "almuerzo": "01:30",
-                "pausaActiva": "15:50"
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "sabado": {
                 "ingreso": "No labora",
