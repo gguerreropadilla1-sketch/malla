@@ -1,5 +1,5 @@
 const malla = {
-    "periodo": "10 al 15 de agosto de 2026",
+    "periodo": "Malla del 31 agosto al 05 de septiembre de 2026",
     "agentes": [
         {
             "nombre": "Maria Elisa Osorio",
