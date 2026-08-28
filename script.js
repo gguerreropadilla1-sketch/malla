@@ -1411,8 +1411,8 @@ function obtenerPeriodoDesdeNombreArchivo(nombreArchivo) {
             .trim();
 
     // Busca nombres como:
-    // Malla del 17 al 22 de agosto
-    // Malla del 10 al 15 de agosto
+    // Malla del 31 agosto al 05 de septiembre
+   
 
     const patron =
         /(\d{1,2})\s+al\s+(\d{1,2})\s+de\s+([a-záéíóúñ]+)/i;
@@ -1648,30 +1648,158 @@ function procesarMallaExcel(filas) {
 
 
     // ========================================================
-    // ACTUALIZAR MALLA
     // ========================================================
+// ACTUALIZAR MALLA
+// ========================================================
 
-    malla.agentes =
-        nuevosAgentes;
-
-
-    // ========================================================
-    // ACTUALIZAR INTERFAZ
-    // ========================================================
-
-    mostrarResumen();
-
-    cargarCanales();
-
-    mostrarTabla();
+malla.agentes = nuevosAgentes;
 
 
-    estadoCargaExcel.textContent =
-        `Malla cargada correctamente: ${nuevosAgentes.length} agentes.`;
+// ========================================================
+// ACTUALIZAR PERÍODO
+// ========================================================
 
+const archivoActual = archivoExcel.files[0];
+
+if (archivoActual) {
+
+    malla.periodo =
+        obtenerPeriodoDesdeNombreArchivo(
+            archivoActual.name
+        );
+
+    periodo.textContent =
+        malla.periodo;
+}
+
+
+// ========================================================
+// ACTUALIZAR INTERFAZ
+// ========================================================
+
+mostrarResumen();
+
+cargarCanales();
+
+mostrarTabla();
+
+
+// ========================================================
+// GENERAR DATOS PARA PUBLICAR
+// ========================================================
+
+generarArchivoDatosJS();
+
+
+// ========================================================
+// MENSAJE
+// ========================================================
+
+estadoCargaExcel.innerHTML = `
+
+    <strong>
+        ✅ Malla cargada correctamente
+    </strong>
+
+    <br>
+
+    ${nuevosAgentes.length} agentes
+
+    <br>
+
+    Periodo:
+    <strong>
+        ${malla.periodo}
+    </strong>
+
+    <br><br>
+
+    <button
+        type="button"
+        onclick="descargarDatosJS()"
+        class="boton-descarga"
+    >
+        💾 Descargar datos.js actualizado
+    </button>
+
+`;
 
 }
 
+
+// ============================================================
+// GENERAR ARCHIVO DATOS.JS
+// ============================================================
+
+function generarArchivoDatosJS() {
+
+    window.datosJSGenerados =
+        `const malla = ${JSON.stringify(
+            malla,
+            null,
+            4
+        )};`;
+
+}
+
+
+// ============================================================
+// DESCARGAR DATOS.JS
+// ============================================================
+
+function descargarDatosJS() {
+
+    if (!window.datosJSGenerados) {
+
+        alert(
+            "Primero debe cargar una malla."
+        );
+
+        return;
+    }
+
+
+    const archivo =
+        new Blob(
+            [
+                window.datosJSGenerados
+            ],
+            {
+                type: "application/javascript"
+            }
+        );
+
+
+    const enlace =
+        document.createElement("a");
+
+
+    enlace.href =
+        URL.createObjectURL(archivo);
+
+
+    enlace.download =
+        "datos.js";
+
+
+    document.body.appendChild(
+        enlace
+    );
+
+
+    enlace.click();
+
+
+    document.body.removeChild(
+        enlace
+    );
+
+
+    URL.revokeObjectURL(
+        enlace.href
+    );
+
+}
 function convertirHoraExcel(valor) {
 
     if (
