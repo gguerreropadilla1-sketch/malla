@@ -214,7 +214,7 @@ const malla = {
             }
         },
         {
-            "nombre": "Daniela Alejandra Barrios Barajas",
+            "nombre": "Juan Pablo Barreto Cordoba",
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
@@ -903,7 +903,7 @@ const malla = {
             }
         },
         {
-            "nombre": "Juan Pablo Barreto Cordoba",
+            "nombre": "Daniela Alejandra Barrios Barajas",
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
