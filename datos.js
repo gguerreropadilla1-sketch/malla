@@ -113,7 +113,7 @@ const malla = {
             "canal": "Canal virtual",
             "lunes": {
                 "ingreso": "07:00",
-                "salida": "16:30",
+                "salida": "16:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
@@ -121,7 +121,7 @@ const malla = {
             },
             "martes": {
                 "ingreso": "07:00",
-                "salida": "16:00",
+                "salida": "15:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
@@ -129,23 +129,23 @@ const malla = {
             },
             "miercoles": {
                 "ingreso": "07:00",
-                "salida": "15:00",
+                "salida": "16:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
                 "pausaActiva": "14:35"
             },
             "jueves": {
-                "ingreso": "08:00",
-                "salida": "16:00",
+                "ingreso": "07:00",
+                "salida": "15:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
                 "pausaActiva": "14:35"
             },
             "viernes": {
-                "ingreso": "08:00",
-                "salida": "16:00",
+                "ingreso": "07:00",
+                "salida": "15:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
@@ -153,7 +153,7 @@ const malla = {
             },
             "sabado": {
                 "ingreso": "08:00",
-                "salida": "12:30",
+                "salida": "13:00",
                 "break1": "",
                 "break2": "",
                 "almuerzo": "",
@@ -174,7 +174,7 @@ const malla = {
             },
             "martes": {
                 "ingreso": "07:00",
-                "salida": "16:00",
+                "salida": "15:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
@@ -182,7 +182,7 @@ const malla = {
             },
             "miercoles": {
                 "ingreso": "07:00",
-                "salida": "15:00",
+                "salida": "16:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
@@ -227,7 +227,7 @@ const malla = {
             },
             "martes": {
                 "ingreso": "07:00",
-                "salida": "16:00",
+                "salida": "15:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
@@ -235,7 +235,7 @@ const malla = {
             },
             "miercoles": {
                 "ingreso": "07:00",
-                "salida": "15:00",
+                "salida": "16:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
