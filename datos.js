@@ -479,59 +479,6 @@ const malla = {
             }
         },
         {
-            "nombre": "Maria Juliana Ramirez Muñoz",
-            "identificacion": "",
-            "canal": "Inbound",
-            "lunes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:00",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:40"
-            },
-            "martes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:00",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:40"
-            },
-            "miercoles": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:00",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:40"
-            },
-            "jueves": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:00",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:40"
-            },
-            "viernes": {
-                "ingreso": "08:00",
-                "salida": "17:00",
-                "break1": "09:40",
-                "break2": "15:00",
-                "almuerzo": "12:30",
-                "pausaActiva": "15:40"
-            },
-            "sabado": {
-                "ingreso": "No labora",
-                "salida": "",
-                "break1": "",
-                "break2": "",
-                "almuerzo": "",
-                "pausaActiva": ""
-            }
-        },
-        {
             "nombre": "Angie Mariana Rodriguez",
             "identificacion": "",
             "canal": "Canal virtual",
@@ -691,6 +638,59 @@ const malla = {
             }
         },
         {
+            "nombre": "Juan Pablo Barreto Cordoba",
+            "identificacion": "",
+            "canal": "Inbound",
+            "lunes": {
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
+            },
+            "martes": {
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
+            },
+            "miercoles": {
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
+            },
+            "jueves": {
+                "ingreso": "07:30",
+                "salida": "17:00",
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
+            },
+            "viernes": {
+                "ingreso": "07:30",
+                "salida": "16:30",
+                "break1": "10:00",
+                "break2": "15:00",
+                "almuerzo": "13:00",
+                "pausaActiva": "15:35"
+            },
+            "sabado": {
+                "ingreso": "No labora",
+                "salida": "",
+                "break1": "",
+                "break2": "",
+                "almuerzo": "",
+                "pausaActiva": ""
+            }
+        },
+        {
             "nombre": "Leidy Salazar",
             "identificacion": "",
             "canal": "Inbound",
@@ -732,59 +732,6 @@ const malla = {
                 "break1": "09:40",
                 "break2": "15:00",
                 "almuerzo": "12:30",
-                "pausaActiva": "15:40"
-            },
-            "sabado": {
-                "ingreso": "No labora",
-                "salida": "",
-                "break1": "",
-                "break2": "",
-                "almuerzo": "",
-                "pausaActiva": ""
-            }
-        },
-        {
-            "nombre": "Luz Diney Gonzalez Alvarez",
-            "identificacion": "",
-            "canal": "Inbound",
-            "lunes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "10:00",
-                "break2": "15:10",
-                "almuerzo": "13:00",
-                "pausaActiva": "15:40"
-            },
-            "martes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "10:00",
-                "break2": "15:10",
-                "almuerzo": "13:00",
-                "pausaActiva": "15:40"
-            },
-            "miercoles": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "10:00",
-                "break2": "15:10",
-                "almuerzo": "13:00",
-                "pausaActiva": "15:40"
-            },
-            "jueves": {
-                "ingreso": "08:00",
-                "salida": "17:00",
-                "break1": "10:00",
-                "break2": "15:10",
-                "almuerzo": "13:00",
-                "pausaActiva": "15:40"
-            },
-            "viernes": {
-                "ingreso": "07:30",
-                "salida": "17:00",
-                "break1": "10:00",
-                "break2": "15:10",
-                "almuerzo": "13:00",
                 "pausaActiva": "15:40"
             },
             "sabado": {
