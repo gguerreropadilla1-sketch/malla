@@ -1,5 +1,5 @@
 const malla = {
-    "periodo": "21 al 26 de septiembre de 2026",
+    "periodo": "14 al 19 de septiembre de 2026",
     "agentes": [
         {
             "nombre": "Etiquetas de fila",
