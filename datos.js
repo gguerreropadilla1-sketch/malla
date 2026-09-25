@@ -357,7 +357,7 @@ const malla = {
             },
             "viernes": {
                 "ingreso": "07:00",
-                "salida": "16:00",
+                "salida": "17:00",
                 "break1": "09:20",
                 "break2": "14:40",
                 "almuerzo": "12:00",
