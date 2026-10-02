@@ -267,7 +267,7 @@ const malla = {
             }
         },
         {
-            "nombre": "Eugenia Roxana Castro",
+            "nombre": "Daniela Alejandra Barrios Barajas",
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
@@ -744,7 +744,7 @@ const malla = {
             }
         },
         {
-            "nombre": "Daniela Alejandra Barrios Barajas",
+            "nombre": "Eugenia Roxana Castro",
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
