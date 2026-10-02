@@ -214,7 +214,7 @@ const malla = {
             }
         },
         {
-            "nombre": "Juan Pablo Barreto Cordoba",
+            "nombre": "Leidy Salazar",
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
@@ -850,7 +850,7 @@ const malla = {
             }
         },
         {
-            "nombre": "Leidy Salazar",
+            "nombre": "Juan Pablo Barreto Cordoba",
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
