@@ -560,7 +560,7 @@ const malla = {
                 "pausaActiva": "15:40"
             },
             "jueves": {
-                "ingreso": "08:00",
+                "ingreso": "07:30",
                 "salida": "17:00",
                 "break1": "09:20",
                 "break2": "14:40",
