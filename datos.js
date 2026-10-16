@@ -60,7 +60,7 @@ const malla = {
             "canal": "Inbound",
             "lunes": {
                 "ingreso": "07:00",
-                "salida": "16:00",
+                "salida": "16:30",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
