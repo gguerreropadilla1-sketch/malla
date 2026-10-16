@@ -243,7 +243,7 @@ const malla = {
             },
             "jueves": {
                 "ingreso": "08:00",
-                "salida": "17:00",
+                "salida": "15:00",
                 "break1": "09:20",
                 "break2": "14:40",
                 "almuerzo": "12:00",
@@ -258,8 +258,8 @@ const malla = {
                 "pausaActiva": "15:40"
             },
             "sabado": {
-                "ingreso": "09:00",
-                "salida": "11:00",
+                "ingreso": "08:00",
+                "salida": "12:00",
                 "break1": "",
                 "break2": "",
                 "almuerzo": "",
@@ -428,7 +428,7 @@ const malla = {
         {
             "nombre": "Eugenia Roxana Castro",
             "identificacion": "",
-            "canal": "Canal virtual",
+            "canal": "Inbound",
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
