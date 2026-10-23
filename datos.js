@@ -167,42 +167,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:00",
                 "salida": "16:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "martes": {
                 "ingreso": "07:00",
                 "salida": "15:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "miercoles": {
                 "ingreso": "07:00",
                 "salida": "16:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "jueves": {
                 "ingreso": "07:00",
                 "salida": "15:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "viernes": {
                 "ingreso": "07:00",
                 "salida": "15:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "sabado": {
                 "ingreso": "08:00",
@@ -220,42 +220,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:00",
                 "salida": "16:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "martes": {
                 "ingreso": "07:00",
                 "salida": "15:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "miercoles": {
                 "ingreso": "07:00",
                 "salida": "16:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "jueves": {
                 "ingreso": "07:00",
                 "salida": "15:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "viernes": {
                 "ingreso": "07:00",
                 "salida": "15:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "sabado": {
                 "ingreso": "08:00",
@@ -273,42 +273,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:00",
                 "salida": "16:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "martes": {
                 "ingreso": "07:00",
                 "salida": "15:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "miercoles": {
                 "ingreso": "07:00",
                 "salida": "16:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "jueves": {
                 "ingreso": "07:00",
                 "salida": "15:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "viernes": {
                 "ingreso": "07:00",
                 "salida": "15:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
-                "pausaActiva": "15:40"
+                "break1": "09:00",
+                "break2": "13:30",
+                "almuerzo": "11:30",
+                "pausaActiva": "14:35"
             },
             "sabado": {
                 "ingreso": "08:00",
@@ -326,42 +326,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "jueves": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "viernes": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "sabado": {
                 "ingreso": "No labora",
@@ -379,42 +379,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "jueves": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "viernes": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "sabado": {
                 "ingreso": "No labora",
@@ -432,42 +432,42 @@ const malla = {
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "jueves": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "viernes": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:00",
-                "break2": "13:30",
-                "almuerzo": "11:30",
-                "pausaActiva": "14:35"
+                "break1": "09:20",
+                "break2": "14:40",
+                "almuerzo": "12:00",
+                "pausaActiva": "15:40"
             },
             "sabado": {
                 "ingreso": "No labora",
@@ -538,40 +538,40 @@ const malla = {
             "lunes": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
+                "break1": "10:00",
+                "break2": "15:10",
                 "almuerzo": "12:00",
                 "pausaActiva": "15:40"
             },
             "martes": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
+                "break1": "10:00",
+                "break2": "15:10",
                 "almuerzo": "12:00",
                 "pausaActiva": "15:40"
             },
             "miercoles": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
+                "break1": "10:00",
+                "break2": "15:10",
                 "almuerzo": "12:00",
                 "pausaActiva": "15:40"
             },
             "jueves": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
+                "break1": "10:00",
+                "break2": "15:10",
                 "almuerzo": "12:00",
                 "pausaActiva": "15:40"
             },
             "viernes": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
+                "break1": "10:00",
+                "break2": "15:10",
                 "almuerzo": "12:00",
                 "pausaActiva": "15:40"
             },
@@ -644,41 +644,41 @@ const malla = {
             "lunes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "10:00",
+                "break2": "15:10",
+                "almuerzo": "13:00",
                 "pausaActiva": "15:40"
             },
             "martes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "10:00",
+                "break2": "15:10",
+                "almuerzo": "13:00",
                 "pausaActiva": "15:40"
             },
             "miercoles": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "10:00",
+                "break2": "15:10",
+                "almuerzo": "13:00",
                 "pausaActiva": "15:40"
             },
             "jueves": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "10:00",
+                "break2": "15:10",
+                "almuerzo": "13:00",
                 "pausaActiva": "15:40"
             },
             "viernes": {
                 "ingreso": "07:30",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "10:00",
+                "break2": "15:10",
+                "almuerzo": "13:00",
                 "pausaActiva": "15:40"
             },
             "sabado": {
@@ -909,41 +909,41 @@ const malla = {
             "lunes": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "10:00",
+                "break2": "15:10",
+                "almuerzo": "12:30",
                 "pausaActiva": "15:40"
             },
             "martes": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "10:00",
+                "break2": "15:10",
+                "almuerzo": "12:30",
                 "pausaActiva": "15:40"
             },
             "miercoles": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "10:00",
+                "break2": "15:10",
+                "almuerzo": "12:30",
                 "pausaActiva": "15:40"
             },
             "jueves": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "10:00",
+                "break2": "15:10",
+                "almuerzo": "12:30",
                 "pausaActiva": "15:40"
             },
             "viernes": {
                 "ingreso": "08:00",
                 "salida": "17:00",
-                "break1": "09:20",
-                "break2": "14:40",
-                "almuerzo": "12:00",
+                "break1": "10:00",
+                "break2": "15:10",
+                "almuerzo": "12:30",
                 "pausaActiva": "15:40"
             },
             "sabado": {
