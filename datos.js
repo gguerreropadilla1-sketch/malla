@@ -161,52 +161,52 @@ const malla = {
             }
         },
         {
-            "nombre": "Mayerly Medina",
+            "nombre": "Estela Delepiani",
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
-                "ingreso": "07:00",
-                "salida": "16:00",
+                "ingreso": "07:30",
+                "salida": "17:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
                 "pausaActiva": "14:35"
             },
             "martes": {
-                "ingreso": "07:00",
-                "salida": "15:00",
+                "ingreso": "07:30",
+                "salida": "17:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
                 "pausaActiva": "14:35"
             },
             "miercoles": {
-                "ingreso": "07:00",
-                "salida": "16:00",
+                "ingreso": "07:30",
+                "salida": "17:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
                 "pausaActiva": "14:35"
             },
             "jueves": {
-                "ingreso": "07:00",
-                "salida": "15:00",
+                "ingreso": "07:30",
+                "salida": "17:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
                 "pausaActiva": "14:35"
             },
             "viernes": {
-                "ingreso": "07:00",
-                "salida": "15:00",
+                "ingreso": "08:00",
+                "salida": "17:00",
                 "break1": "09:00",
                 "break2": "13:30",
                 "almuerzo": "11:30",
                 "pausaActiva": "14:35"
             },
             "sabado": {
-                "ingreso": "08:00",
-                "salida": "13:00",
+                "ingreso": "No labora",
+                "salida": "",
                 "break1": "",
                 "break2": "",
                 "almuerzo": "",
@@ -691,7 +691,7 @@ const malla = {
             }
         },
         {
-            "nombre": "Leidy Salazar",
+            "nombre": "Ruth Esperanza Huertas",
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
@@ -1168,7 +1168,7 @@ const malla = {
             }
         },
         {
-            "nombre": "Ruth Esperanza Huertas",
+            "nombre": "Mayerly Medina",
             "identificacion": "",
             "canal": "Backoffice",
             "lunes": {
@@ -1380,7 +1380,7 @@ const malla = {
             }
         },
         {
-            "nombre": "Estela Delepiani",
+            "nombre": "Leidy Salazar",
             "identificacion": "",
             "canal": "Backoffice",
             "lunes": {
