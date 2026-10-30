@@ -214,7 +214,7 @@ const malla = {
             }
         },
         {
-            "nombre": "Maria Elisa Osorio",
+            "nombre": "Eugenia Roxana Castro",
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
@@ -744,7 +744,7 @@ const malla = {
             }
         },
         {
-            "nombre": "Eugenia Roxana Castro",
+            "nombre": "Maria Elisa Osorio",
             "identificacion": "",
             "canal": "Inbound",
             "lunes": {
